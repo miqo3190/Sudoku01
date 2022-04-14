@@ -472,6 +472,9 @@ void Game::finish_game(bool chek)
 			}
 		}
 		std::cout << "\n\n\n\n\n\n\n                                                             YOU WIN\n\n\n\n\n\n\n ";
+		std::cout <<"Continue ? ;)/n : ";
+		std::cin >> m_survey;
+		std::abort();
 	}
 	else
 	{
